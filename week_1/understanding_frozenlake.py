@@ -7,7 +7,7 @@ gamma = 0.99
 epsilon = 0.1
 num_episodes = 10000
 
-env = gym.make("FrozenLake-v1", is_slippery=True, render_mode="rgb_array")
+env = gym.make("FrozenLake-v1", is_slippery=True)
 
 
 def greedy_epsilon(qtable, state):
